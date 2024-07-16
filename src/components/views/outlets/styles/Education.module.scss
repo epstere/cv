@@ -5,11 +5,21 @@
     height: 100%;
 }
 
+.section_group {
+    display: flex;
+    justify-content: space-between;
+}
+
 .section {
     background-color: #f3f3f350;
     backdrop-filter: blur(10px);
     padding: 20px;
     margin-bottom: 10px;
+    width: 49%;
+}
+
+.main>.section:last-child {
+    width: 100%;
 }
 
 .main p {
@@ -26,6 +36,10 @@
 @media (max-width: 480px) {
     .main {
         padding: unset;
+    }
+
+    .section_group {
+        flex-direction: column;
     }
 
     .section {

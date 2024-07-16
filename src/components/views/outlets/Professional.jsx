@@ -26,7 +26,7 @@ const Professional = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.section} style={{ width: '100%' }} >
+            <div className={styles.section}  >
                 <div className={styles.personalInfo}>
                     <p className={styles.paragraph_header}>Experiência Profisional</p>
                     <p className={styles.content_line}><strong>Militar do Exército Brasileiro (2012 - 2022): </strong>

@@ -10,7 +10,7 @@ const Education = () => {
                         <p className={styles.paragraph_header}>Educação Formal</p>
                         <p className={styles.content_line}><strong>E. M. Alcino Francisco da Silva</strong> - Fundamental (2008)</p>
                         <p className={styles.content_line}><strong>C. E. Higino da Silveira</strong> - Médio (2010)</p>
-                        <p className={styles.content_line}><strong>Universidade Estácio de Sá</strong> - Superior (2024)</p>
+                        <p className={styles.content_line}><strong>Universidade Estácio de Sá</strong> - Bacharel em Direito (2024)</p>
                     </div>
                 </div>
                 <div className={styles.section}>
@@ -20,7 +20,7 @@ const Education = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.section} style={{ width: '100%' }} >
+            <div className={styles.section}  >
                 <div className={styles.personalInfo}>
                     <p className={styles.paragraph_header}>Demais Habilidades e Conhecimentos</p>
                     <p className={styles.content_line}>Inglês avançado</p>
