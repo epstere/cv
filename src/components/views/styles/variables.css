@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "icons";
+  src: url("/fonts/icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+  --color1: #262626;
+  --color2: #00e6e6;
+  --color3: #014141;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none; /* Firefox */
+  font-family: 'roboto';
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari e Opera */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}

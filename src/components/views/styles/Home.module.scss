@@ -1,0 +1,75 @@
+@import url('./variables.css');
+
+.main {
+    position: absolute;
+    top: 15vh;
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.outlet {
+    width: 85%;
+    padding-right: 10px;
+}
+
+.profile {
+    width: 25%;
+    margin: 0 10px 0 10px;
+    height: 50%;
+    min-width: fit-content;
+    min-height: 20vh;
+    background: linear-gradient(to bottom, transparent, #7f8c8d50, transparent);
+    backdrop-filter: blur(1px);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.moldura {
+    width: 150px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-style: double;
+    border-width: 3px;
+    border-color: var(--color1);
+}
+
+.imagem {
+    width: 100%;
+    object-fit: fill;
+}
+
+
+@media (max-width: 480px) {
+   .main{
+    flex-direction: column;
+   }
+
+   .profile{
+    width: 100%;
+    margin-left: unset;
+    margin-top: unset;
+    margin-bottom: 10px;
+    min-height: 25vh;
+   }
+
+   .outlet{
+    width: 100%;
+    padding-right: unset;
+   }
+}
