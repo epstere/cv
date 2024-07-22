@@ -7,7 +7,7 @@ const Home = () => {
       <div className={styles.profile}>
         <div className={styles.foto}>
           <div className={styles.moldura}>
-            <img src="/imgs/eu.png" alt="" className={styles.imagem} />
+            <img src="/imgs/eu.jpg" alt="" className={styles.imagem} />
           </div>
         </div>
       </div >

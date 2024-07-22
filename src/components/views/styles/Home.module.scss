@@ -22,8 +22,8 @@
     height: 50%;
     min-width: fit-content;
     min-height: 20vh;
-    background: linear-gradient(to bottom, transparent, #7f8c8d50, transparent);
-    backdrop-filter: blur(1px);
+/*     background: linear-gradient(to bottom, transparent, #58065f, transparent);
+ */    backdrop-filter: blur(1px);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -44,9 +44,8 @@
     display: flex;
     justify-content: center;
     border-radius: 50%;
-    border-style: double;
+    border-style: solid;
     border-width: 3px;
-    border-color: var(--color1);
 }
 
 .imagem {

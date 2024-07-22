@@ -22,7 +22,8 @@
   min-width: -moz-fit-content;
   min-width: fit-content;
   min-height: 20vh;
-  background: linear-gradient(to bottom, transparent, rgba(127, 140, 141, 0.3137254902), transparent);
+  /*     background: linear-gradient(to bottom, transparent, #58065f, transparent);
+   */
   -webkit-backdrop-filter: blur(1px);
           backdrop-filter: blur(1px);
   color: #fff;
@@ -45,9 +46,8 @@
   display: flex;
   justify-content: center;
   border-radius: 50%;
-  border-style: double;
+  border-style: solid;
   border-width: 3px;
-  border-color: var(--color1);
 }
 
 .imagem {
