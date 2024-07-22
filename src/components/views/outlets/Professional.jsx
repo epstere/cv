@@ -10,7 +10,7 @@ const Professional = () => {
                         <p className={styles.paragraph_header}>Projetos Relevantes</p>
                         <p className={styles.content_line}><strong>www.deelite.com.br </strong> - Um site quase estático, se não pela área administrativa onde o proprietário altera as informações que serão exibidas. Apresenta-se como um portifólio de eventos esportivos.
                         </p>
-                        <p className={styles.content_line}><strong>Confidencial </strong> - Protegido por sigilo de contrato até a sua publicação oficial, é um complexo sitema de venda online voltado para o segmento esportivo e de eventos
+                        <p className={styles.content_line}><strong>Confidencial </strong> - Protegido por sigilo de contrato até a sua publicação oficial, é um complexo sistema de venda online voltado para o segmento esportivo e de eventos
                         </p>
                     </div>
                 </div>
