@@ -5,7 +5,7 @@
     height: 100%;
 }
 
-.section_group{
+.section_group {
     display: flex;
     justify-content: space-between;
 }
@@ -18,8 +18,8 @@
     width: 49%;
 }
 
-.main > .section:last-child{
-    width:100%;
+.main>.section:last-child {
+    width: 100%;
 }
 
 .main p {
@@ -29,7 +29,7 @@
 .paragraph_header {
     font-weight: bold;
     margin-top: 15px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 @media (max-width: 480px) {
@@ -37,7 +37,7 @@
         padding: unset;
     }
 
-    .section_group{
+    .section_group {
         flex-direction: column;
     }
 

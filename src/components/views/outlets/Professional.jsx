@@ -14,7 +14,7 @@ const Professional = () => {
               tenha interesse em divulgar.
             </p>
             <p className={styles.content_line}>
-              <strong>Confidencial </strong> - atualmente em fase de
+              <strong>Site Confidencial </strong> - atualmente em fase de
               finalização, no desenvolvimento de um complexo sistema de venda
               online voltado para o segmento esportivo e de eventos. Essa
               aplicação é demasiadamente sofisticada, porque foi criada uma
@@ -41,7 +41,7 @@ const Professional = () => {
         <div className={styles.personalInfo}>
           <p className={styles.paragraph_header}>Experiência Profissional</p>
           <p className={styles.content_line}>
-            <strong>Militar do Exército Brasileiro (2012 - 2022): </strong>
+            <strong>Programador Freelancer (2024): </strong>
             Embora não tenha muito projetos grandes, mas me sinto entrando no
             mercado de programação. Possuo dois projetos publicados, sendo um
             deles de um complexo sistema de venda online.
@@ -53,7 +53,7 @@ const Professional = () => {
             gerenciamento, tais como; PC-System e Facility.
           </p>
           <p className={styles.content_line}>
-            <strong>Programador Freelancer (2024): </strong>
+            <strong>Militar do Exército Brasileiro (2012 - 2022): </strong>
             Embora não tenha muito projetos grandes, mas me sinto entrando no
             mercado de programação. Possuo dois projetos publicados, sendo um
             deles de um complexo sistema de venda online.
